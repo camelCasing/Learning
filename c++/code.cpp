@@ -1,11 +1,12 @@
 #include "common.h"
+#include "camel.h"
 
 int doubleInt(int first) {
     return first * 2;
 }
 
 int main() {
-    // Credit to The Cherno for epic series!
+    // Thanks to The Cherno for epic series!
 
     int variable = 5;
 
@@ -14,6 +15,8 @@ int main() {
     } else {
         std::cout << "variable is not 1" << std::endl;
     }
+
+    Log("Hello World!");
 
     std::cout << doubleInt(5) << std::endl;
 
